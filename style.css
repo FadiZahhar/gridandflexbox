@@ -47,6 +47,14 @@ a {
     text-decoration:none;
 }
 
+/* COVER */
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* 50% of the height of the view port */
+}
+
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
  *  Green Background
