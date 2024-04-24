@@ -64,11 +64,12 @@ a {
 
 /* COVER */
 .container {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height: 50vh; /* 50% of the height of the view port */
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Centers items vertically within the container */
+    justify-content: center; /* Centers items horizontally within the container */
+    height: 50vh; /* Sets the height of the container to 50% of the viewport height */
 }
+
 
 .cover {
     width: 30rem;
@@ -76,20 +77,21 @@ a {
 
 /* GRID */
 .grid-wrapper {
-    display:grid;
-    grid-gap:20px;
-    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
-}
-
-.box > img {
-    width:100%;
+    display: grid; /* Enables grid layout */
+    grid-gap: 20px; /* Sets gap between grid items */
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Creates a responsive grid layout */
 }
 
 .box {
-    background:#444;
-    padding:130px;
-    margin:20px;
+    background: #444; /* Dark grey background for box elements */
+    padding: 130px; /* Large padding within boxes */
+    margin: 20px; /* Margin around boxes */
 }
+
+.box > img {
+    width: 100%; /* Full width images within box elements */
+}
+
 
 footer {
     text-align: center;
