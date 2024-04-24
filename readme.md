@@ -1,6 +1,7 @@
 Flexbox and CSS Grid are powerful CSS layout systems, each with its specific strengths, designed to address different web development challenges. Here's a detailed explanation of both, including how they compare to using frameworks like Bootstrap:
 
 ### Flexbox
+[Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 **Flexbox**, short for Flexible Box Layout, is a one-dimensional layout model that offers a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown or dynamic. 
 
@@ -15,7 +16,7 @@ Flexbox and CSS Grid are powerful CSS layout systems, each with its specific str
 - Managing space distribution and alignment in one dimension (either as a row or a column).
 
 ### CSS Grid
-
+[Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 **CSS Grid Layout** is a two-dimensional grid-based layout system that is ideal for designing complex web layouts on both the horizontal and vertical axes. It is powerful and versatile, handling both columns and rows simultaneously.
 
 **Key Features:**
